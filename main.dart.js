@@ -8409,7 +8409,7 @@ yY:function yY(a,b){this.a=a
 this.b=b},
 qV:function qV(a){this.a=a},
 bgr(){var s,r=t.N,q=new A.yX(A.a([],t.gL),A.x(r,t.tI))
-r=A.bt7("http://app.assafwaschool.com/",B.X9,A.aK(["Accept","application/json"],r,t.z),B.WT,B.Nb)
+r=A.bt7("https://app.assafwaschool.com/",B.X9,A.aK(["Accept","application/json"],r,t.z),B.WT,B.Nb)
 s=new A.YX(A.a([B.SI],t.i6))
 s.N(s,B.a9O)
 s=new A.aoq($,s,$,new A.asB(51200),!1)
@@ -36972,7 +36972,7 @@ aA0(a){var s,r
 if(a==null||B.b.J(a).length===0)return null
 s=B.b.J(a)
 if(s==="null"||s==="default.png"||s==="profile.png"||s==="default_profile.png")return null
-r="http://app.assafwaschool.com/photo.php?file="+A.uD(2,B.b.m(s,"/")?B.c.gak(s.split("/")):s,B.aN,!1)
+r="https://app.assafwaschool.com/photo.php?file="+A.uD(2,B.b.m(s,"/")?B.c.gak(s.split("/")):s,B.aN,!1)
 if($.bjM.m(0,r))return null
 return r},
 bxI(a){var s,r=B.b.J(a)
@@ -58691,7 +58691,7 @@ $ibiq:1}
 A.e4.prototype={
 gGZ(){var s=this.z
 if(s.length===0)return null
-return"http://app.assafwaschool.com/uploads/homeworks/"+s},
+return"https://app.assafwaschool.com/uploads/homeworks/"+s},
 gzw(){var s=A.e0(this.y,"&nbsp;"," ")
 s=A.e0(s,"<br>","\n")
 return B.b.J(A.e0(s,"<br/>","\n"))}}
@@ -61215,7 +61215,7 @@ s=A.T(A.a([j,B.al,A.a9(A.a([l,A.k("Phase 1 API monitor and connection diagnostic
 l=A.u(12)
 j=A.ai(B.u,1)
 q=A.v(a).ok.w
-l=A.w(m,A.a9(A.a([A.k("API Configuration",m,m,m,q==null?m:q.oo(B.v),m,m,m),B.ai,n.mS("API Base URL","http://app.assafwaschool.com/"),B.et,n.mS("Classes Endpoint","http://app.assafwaschool.com/getAllClasses.php"),B.et,n.mS("Sections Endpoint","http://app.assafwaschool.com/getAllSections.php"),B.et,n.mS("Students Endpoint","http://app.assafwaschool.com/getAllStudent.php"),B.et,n.mS("User Profile Endpoint","http://app.assafwaschool.com/getUserById.php?id={id}"),B.et,n.mS("Student Payments Endpoint","http://app.assafwaschool.com/getAllPaymentByStudentId.php?studentId={id}"),B.et,n.mS("Bad Exam Marks Endpoint","http://app.assafwaschool.com/getBadExamsMarkets.php?studentId={id}"),B.et,n.mS("All Exam Marks Endpoint","http://app.assafwaschool.com/getExamMarks.php?studentId={id}"),B.et,n.mS("Payments by Date Endpoint","http://app.assafwaschool.com/getpaymentByDate.php?dateDeb={dateDeb}&dateFin={dateFin}"),B.et,n.mS("Mode","READ-ONLY (Phase 1 \u2014 No database, No auth, No CRUD)")],r),B.q,B.d,B.f),B.h,m,m,new A.I(B.l,m,j,l,m,m,B.j),m,m,m,B.aq,m,m,1/0)
+l=A.w(m,A.a9(A.a([A.k("API Configuration",m,m,m,q==null?m:q.oo(B.v),m,m,m),B.ai,n.mS("API Base URL","https://app.assafwaschool.com/"),B.et,n.mS("Classes Endpoint","https://app.assafwaschool.com/getAllClasses.php"),B.et,n.mS("Sections Endpoint","https://app.assafwaschool.com/getAllSections.php"),B.et,n.mS("Students Endpoint","https://app.assafwaschool.com/getAllStudent.php"),B.et,n.mS("User Profile Endpoint","https://app.assafwaschool.com/getUserById.php?id={id}"),B.et,n.mS("Student Payments Endpoint","https://app.assafwaschool.com/getAllPaymentByStudentId.php?studentId={id}"),B.et,n.mS("Bad Exam Marks Endpoint","https://app.assafwaschool.com/getBadExamsMarkets.php?studentId={id}"),B.et,n.mS("All Exam Marks Endpoint","https://app.assafwaschool.com/getExamMarks.php?studentId={id}"),B.et,n.mS("Payments by Date Endpoint","https://app.assafwaschool.com/getpaymentByDate.php?dateDeb={dateDeb}&dateFin={dateFin}"),B.et,n.mS("Mode","READ-ONLY (Phase 1 \u2014 No database, No auth, No CRUD)")],r),B.q,B.d,B.f),B.h,m,m,new A.I(B.l,m,j,l,m,m,B.j),m,m,m,B.aq,m,m,1/0)
 j=A.u(12)
 q=A.ai(B.u,1)
 p=A.v(a).ok.w
